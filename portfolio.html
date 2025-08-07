@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Md Raihan Sharker - Copywriting Portfolio</title>
+<style>
+  /* Reset & Base */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; 
+    background: #f9f9f9; 
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Container */
+  .container {
+    max-width: 900px;
+    margin: 80px auto 40px;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+
+  /* Navbar */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  }
+  nav .logo {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0; padding: 0;
+    display: flex;
+  }
+  nav ul li {
+    margin-left: 25px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  nav ul li a:hover {
+    color: #ffdd57;
+  }
+
+  /* Section Titles */
+  h1, h2, h3 {
+    color: #222;
+  }
+
+  /* Sections */
+  .section {
+    margin-bottom: 50px;
+  }
+
+  /* Contact Section */
+  .contact-info {
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+  }
+
+  /* Work Samples */
+  .sample {
+    background: #f0f8ff;
+    border-left: 6px solid #007BFF;
+    padding: 12px 20px;
+    margin-bottom: 18px;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+  }
+
+  /* Responsive Image */
+  .profile-img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  }
+
+  /* Responsive Layout */
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px 15px;
+      margin: 100px 10px 30px;
+    }
+    nav ul {
+      flex-direction: column;
+      background: #0056b3;
+      position: absolute;
+      top: 60px;
+      right: 30px;
+      border-radius: 8px;
+      display: none;
+      width: 150px;
+    }
+    nav ul.show {
+      display: flex;
+    }
+    nav ul li {
+      margin: 12px 0;
+      text-align: right;
+      margin-left: 0;
+    }
+    .menu-toggle {
+      display: block;
+      cursor: pointer;
+      font-size: 1.5rem;
+      user-select: none;
+    }
+  }
+
+  /* Hide menu toggle on desktop */
+  .menu-toggle {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Raihan Sharker</div>
+  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+  <ul id="nav-menu">
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#samples">Work Samples</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+
+  <header id="about" class="section" style="text-align:center;">
+    <img src="myphoto.jpg" alt="Md Raihan Sharker" class="profile-img" />
+    <h1>Md Raihan Sharker</h1>
+    <p><strong>Copywriting Portfolio</strong></p>
+    <p>Email: <a href="mailto:raihansharker019@gmail.com">raihansharker019@gmail.com</a> | Phone: 01870829386</p>
+    <p>Location: Jatrabari, Dhaka-1236</p>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a bilingual copywriter skilled in both Bangla and English, specializing in creating sales-focused and engaging content for digital platforms including social media, email campaigns, and websites.</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Copywriting (English & Bangla)</li>
+      <li>Social Media Content</li>
+      <li>Ad Copy (Facebook, Instagram, Google)</li>
+      <li>Email Campaign Copy</li>
+      <li>Landing Pages & Website Copy</li>
+      <li>Sales-Oriented & CTA-Focused Writing</li>
+      <li>E-commerce Product Descriptions</li>
+    </ul>
+  </section>
+
+  <section id="samples" class="section">
+    <h2>Work Samples</h2>
+
+    <h3>1. Social Media Ad Copy (Bilingual)</h3>
+    <div class="sample">
+✨ ঈদের নতুন পোশাকে থাকুক ট্রেন্ডি লুক!  
+🔥 মাত্র ২৪ ঘণ্টার জন্য ৫০% ছাড়!  
+👗 এক্সক্লুসিভ কালেকশন এখনই অর্ডার করুন।  
+🛍️ www.stylebuzz.com  
+
+✨ Step into Eid with a trendy new look!  
+🔥 Flat 50% OFF – Only for 24 hours!  
+👗 Shop exclusive collections today.  
+🛍️ www.stylebuzz.com
+    </div>
+
+    <h3>2. Email Newsletter Copy</h3>
+    <div class="sample">
+Subject: Your 10% Welcome Gift Awaits 🎁
+
+Hey [Name],
+
+Welcome to TechNest!  
+As a warm hello, here’s a 10% discount on your first order.
+
+✅ Latest gadgets  
+✅ Free delivery over ৳1000  
+✅ Hassle-free return policy
+
+Use Code: WELCOME10
+
+👉 [Start Shopping Now]
+
+Cheers,  
+Team TechNest
+    </div>
+
+    <h3>3. Landing Page Hero Section</h3>
+    <div class="sample">
+Headline: 💪 Transform Your Body, Transform Your Life
+
+Join 5000+ people who reached their fitness goals from home.
+
+[Get Your Free 7-Day Trial]
+    </div>
+
+    <h3>4. Product Description (E-commerce)</h3>
+    <div class="sample">
+🎧 Crystal-clear sound meets unbeatable comfort.  
+With active noise cancellation and 30+ hours of battery life, these headphones are your perfect companion—at work, home, or on the go.
+
+✅ Bluetooth 5.2  
+✅ Touch Control  
+✅ Built-in Mic  
+
+🔥 Price: ৳3,499 | [Buy Now]
+    </div>
+
+    <h3>5. Website Copy + CTA</h3>
+    <div class="sample">
+🎨 I Design Visual Stories That Sell
+
+Hi, I'm Ayesha—your next design partner. From branding to social content, I help brands stand out with bold visuals that connect.
+
+[Let’s Work Together]
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-info">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:raihansharker019@gmail.com">raihansharker019@gmail.com</a></p>
+    <p>Phone: 01870829386</p>
+    <p>Location: Jatrabari, Dhaka-1236</p>
+    <p>GitHub: <a href="https://github.com/Devil-Annonimous" target="_blank">https://github.com/Devil-Annonimous</a></p>
+  </section>
+
+</div>
+
+<script>
+  // Smooth scroll for nav links
+  document.querySelectorAll('nav ul li a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetID = this.getAttribute('href').substring(1);
+      document.getElementById(targetID).scrollIntoView({
+        behavior: 'smooth'
+      });
+      
+      // Close menu on mobile after click
+      if(window.innerWidth <= 600){
+        document.getElementById('nav-menu').classList.remove('show');
+      }
+    });
+  });
+
+  // Mobile menu toggle
+  document.getElementById('menu-toggle').addEventListener('click', function(){
+    document.getElementById('nav-menu').classList.toggle('show');
+  });
+</script>
+
+</body>
+</html>
